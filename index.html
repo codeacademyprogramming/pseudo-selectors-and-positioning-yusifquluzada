@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      h1 {
+        margin: 0 auto;
+        width: max-content;
+      }
+      h1::before {
+        content: "hello great ";
+        background-color: yellow;
+        /* content: '';
+            font-size: 40px;
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            background-color: red; */
+      }
+      h1::after {
+        content: " , it was nice to see you baby";
+        background-color: yellow;
+        /* font-size: 40px;
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            background-color: red; */
+      }
+
+      html {
+        font-family: Arial, sans-serif;
+      }
+
+      nav {
+        width: 50%;
+        margin: 0 auto;
+        background-color: black;
+      }
+      nav ul {
+        list-style-type: none;
+        width: max-content;
+        margin: 0 auto;
+        padding: 10px 0;
+      }
+      nav ul li {
+        display: inline-block;
+      }
+      nav ul li a {
+        display: inline-block;
+        padding: 0 10px;
+        height: 24px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        line-height: 10px;
+      }
+
+      nav ul a:hover::after {
+        width: 100%;
+      }
+
+      nav ul li a::after {
+        display: inline-block;
+        content: "";
+        width: 0%;
+        height: 2px;
+        background-color: white;
+        transition: width 1s ease-in-out;
+      }
+    </style>
+    <title>CSS Before After & Position</title>
+  </head>
+  <body>
+    <!-- <h1>Hello world</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, totam illum nobis eligendi laborum delectus velit in molestias eum dolores veniam vitae? Inventore ex nisi mollitia libero consequatur laboriosam, asperiores at eveniet facere. Quos eaque eius perspiciatis veniam dignissimos, soluta quisquam ab. Voluptas nobis id aspernatur voluptates temporibus quod veniam?</p>
+    <ul class="list-group first-ul">
+        <li class="list-group-item list-group-item--red">first item</li>
+        <li class="list-group-item">second item</li>
+        <li class="list-group-item">third item</li>
+        <li class="list-group-item">fourth item</li>
+        <li class="list-group-item">fifth item</li>
+        <li class="list-group-item">sixth item</li>
+        <li class="list-group-item">seventh item</li>
+        <li class="list-group-item">eighth item</li>
+    </ul>
+
+    <a href="https://remote.com">Remote.com website</a>
+    <a href="https://store.steampowered.com">steam</a>
+    <div></div>
+    <div class="box">
+        <p>
+            salam dunya
+            <span>hello</span>
+        </p>
+    </div>
+    <div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <p></p>
+        <p></p>
+        <ul>
+            <li></li>
+        </ul>
+        <div></div>
+    </div>
+    <h3>hello hello</h3>
+    <h3>hello hello</h3>
+    <h3>hello hello</h3>
+    <input type="text" class="inputos"> -->
+
+    <!-- <h1>world</h1> -->
+    <nav>
+      <ul>
+        <li>
+          <a href="/home">home</a>
+        </li>
+        <li>
+          <a href="/about">about</a>
+        </li>
+        <li>
+          <a href="/contact">contact</a>
+        </li>
+        <li>
+          <a href="/bez-contact">bez-contact</a>
+        </li>
+        <li>
+          <a href="/faq">faq</a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

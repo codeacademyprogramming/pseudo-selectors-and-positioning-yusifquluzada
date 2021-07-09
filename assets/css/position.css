@@ -1,0 +1,63 @@
+body {
+    height: 5000px;
+}
+/* 
+.box {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+}
+
+.box .arrow {
+    position: absolute;
+    top: 45%;
+    color: black;
+    font-size: 1.5em;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.box .arrow.left {
+    left: 10px;
+}
+
+.box .arrow.right {
+    right: 10px;
+} */
+
+.up-arrow {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    bottom: 50px;
+    right: 50px;
+}
+
+nav ul {
+    margin: 0 auto;
+    width: 100%;
+}
+
+nav ul li{
+    /* display: inline-block; */
+}
+
+nav ul li:not(:last-child) {
+    margin-right: 20px;
+}
+
+nav {
+    width: 10%;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 200px;
+    left: 20%;
+}

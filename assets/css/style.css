@@ -1,0 +1,113 @@
+h1::first-letter {
+    color: red;
+    font-size: 40px;
+}
+
+p::first-line {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+}
+
+ul {
+    margin-left: 50px;
+}
+
+li::marker {
+    color: red;
+    font-size: 40px;
+}
+
+h1::selection,
+h2::selection,
+h3::selection,
+p::selection,
+li::selection {
+    color: white;
+    background-color: black;
+}
+
+a:link {
+    color: yellowgreen;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: pink;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+
+}
+
+.box:hover {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+}
+
+p:hover span{
+    color: yellow;
+    background-color: black;
+}
+
+p:hover + h3 {
+    color: blue;
+}
+
+p:hover .box {
+    background-color: yellow;
+}
+
+p span:hover {
+    background-color: red;
+}
+
+.inputos:focus {
+    background-color: yellow;
+}
+
+/* .list-group .list-group-item {
+    font-size: 20px;
+    color: blue;
+    background-color: yellow;
+}
+.list-group .list-group-item--red {
+    color: red;
+} */
+
+ul li:first-child {
+    color: red;
+}
+
+.first-ul li:last-child {
+    font-size: 50px;
+}
+/* 
+ul li:nth-child(2),
+ul li:nth-child(3) {
+    color: pink;
+} */
+
+ul li:nth-child(n + 3) {
+    color: yellow;
+}
+
+div div:first-of-type {
+
+}
+
+ul li:not(:nth-child(2n)) {
+
+}
